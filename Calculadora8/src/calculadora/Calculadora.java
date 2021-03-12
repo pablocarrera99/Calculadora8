@@ -43,6 +43,7 @@ public class Calculadora {
 	      return (Math.log10(num) / Math.log10(base));
 	   }
 
+	   	// 2 prueba
 	}
 
 	
