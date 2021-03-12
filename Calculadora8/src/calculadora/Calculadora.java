@@ -28,4 +28,21 @@ public class Calculadora {
 		int resul = num1 / num2;
 		return resul;
 	}
-}
+
+
+
+	// prueba cogida de internet
+	   public static void main(String[] args) {
+	      int num = 5;
+	      for (int base = 0; base < 10; base++) {
+	         System.out.println("Logaritmo de 5 en base " + base + " = " + log(num, base));
+	      }
+	   }
+
+	   private static Double log(double num, int base) {
+	      return (Math.log10(num) / Math.log10(base));
+	   }
+
+	}
+
+	
